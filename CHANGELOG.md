@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.3.0](https://github.com/ElvisAMJunior/presence-dot/compare/v1.2.0...v1.3.0) (2026-06-10)
+
+
+### Features
+
+* **pages:** create a login page ([5a4dc12](https://github.com/ElvisAMJunior/presence-dot/commit/5a4dc1209defbc96b6d22ab5d947ce1539dcb11f))
+
 ## [1.2.0](https://github.com/ElvisAMJunior/presence-dot/compare/v1.1.0...v1.2.0) (2026-06-10)
 
 
