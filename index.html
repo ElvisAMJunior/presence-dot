@@ -4,51 +4,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Presence Dot | Enterprise Time & Attendance Intelligence</title>
-
-
+    <title>Presence Dot | Time & Control</title>
+    <!--Favicon-->
     <link rel="icon" href="/src/assets/favicon-dark/favicon.ico" type="image/x-icon" id="favicon">
-
+    <!--CSS Styles-->
+    <link rel="stylesheet" href="/src/utils/styles/root.css">
+    <!--Frameworks and CDN links-->
     <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        slate: {
-                            light: '#b0bed0',
-                            dark: '#2d3542',
-                        },
-                        cream: '#f6e99f',
-                        amber: '#ffc11c',
-                        orange: '#e17823',
-                    },
-                    fontFamily: {
-                        sans: ['Inter', 'sans-serif'],
-                    }
-                }
-            }
-        }
-    </script>
+    <script src="/src/utils/components/tailwindcss/mainTheme.js"></script>
+    <!--Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 
-<body class="bg-white text-slate-dark font-sans antialiased">
+<body class="bg-white text-dark font-sans antialiased">
 
     <nav class="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between border-b border-slate-light/20">
         <div class="flex items-center space-x-2 font-extrabold text-2xl tracking-tight">
             <span class="w-4 h-4 rounded-full bg-orange inline-block animate-pulse"></span>
             <span>Presence<span class="text-orange">Dot</span></span>
         </div>
-        <div class="hidden md:flex space-x-8 font-medium text-slate-dark/80">
+        <div class="hidden md:flex space-x-8 font-medium text-dark">
             <a href="#tracking" class="hover:text-orange transition-colors">Time Tracking</a>
             <a href="#analytics" class="hover:text-orange transition-colors">Presence Analytics</a>
             <a href="#compliance" class="hover:text-orange transition-colors">Enterprise Infrastructure</a>
         </div>
         <div>
-            <a href="/src/pages/404.html"
+            <a href="/src/pages/login.html"
                 class="bg-slate-dark text-white hover:bg-slate-dark/90 font-semibold px-5 py-2.5 rounded-lg transition-all text-sm shadow-sm">
                 Request System Demo
             </a>
@@ -59,21 +42,21 @@
             class="inline-flex items-center space-x-2 bg-cream/60 border border-amber/40 px-3 py-1.5 rounded-full text-xs font-semibold text-orange uppercase tracking-wider mb-6">
             <span>Zero-Hardware Setup</span>
         </div>
-        <h1 class="text-5xl md:text-6xl font-extrabold tracking-tight text-slate-dark mb-6 leading-[1.1]">
+        <h1 class="text-5xl md:text-6xl font-extrabold tracking-tight text-dark mb-6 leading-[1.1]">
             Absolute precision in corporate <span
                 class="bg-gradient-to-r from-orange to-amber bg-clip-text text-transparent">time tracking.</span>
         </h1>
-        <p class="text-lg md:text-xl text-slate-dark/70 max-w-3xl mx-auto mb-10 leading-relaxed">
+        <p class="text-lg md:text-xl text-dark max-w-3xl mx-auto mb-10 leading-relaxed">
             Presence Dot allows global enterprises to deploy a bulletproof time clock ecosystem instantly—completely
             eliminating the need for expensive physical hardware or dedicated HR teams to manage it.
         </p>
         <div class="flex flex-col sm:flex-row justify-center gap-4">
-            <a href="/src/pages/404.html"
+            <a href="/src/pages/login.html"
                 class="bg-orange hover:bg-orange/95 text-white font-bold px-8 py-4 rounded-xl transition-all shadow-md shadow-orange/20">
                 Deploy Without Hardware
             </a>
-            <a href="/src/pages/404.html"
-                class="bg-white hover:bg-slate-light/10 text-slate-dark border border-slate-light/40 font-bold px-8 py-4 rounded-xl transition-all">
+            <a href="/src/pages/login.html"
+                class="bg-white hover:bg-slate-light/10 text-dark border border-slate-light/40 font-bold px-8 py-4 rounded-xl transition-all">
                 See How Automation Works
             </a>
         </div>
@@ -83,7 +66,7 @@
 
         <div class="text-center md:text-left mb-12">
             <h2 class="text-3xl font-bold tracking-tight mb-2">App Ecosystem & Automation Capabilities</h2>
-            <p class="text-slate-dark/60">Comprehensive, cross-device time tracking without the burden of physical
+            <p class="text-dark">Comprehensive, cross-device time tracking without the burden of physical
                 hardware or HR oversight.</p>
         </div>
 
@@ -97,7 +80,7 @@
                         class="text-xs font-bold text-orange uppercase tracking-wider bg-white px-2.5 py-1 rounded-md border border-slate-light/20">Cloud
                         Ingestion</span>
                     <h3 class="text-2xl font-bold mt-4 mb-3">Zero-Hardware Clocking</h3>
-                    <p class="text-slate-dark/70 leading-relaxed mb-6">
+                    <p class="text-dark leading-relaxed mb-6">
                         Employees log shifts seamlessly via the Presence Dot mobile app or web portal. By utilizing
                         precise secure web geofencing, you get secure verification without buying, installing, or
                         maintaining physical time card machines.
@@ -106,7 +89,7 @@
                 <!-- Interactive UI Preview representing the App/Web platform -->
                 <div class="bg-white border border-slate-light/30 rounded-xl p-4 shadow-sm space-y-3">
                     <div class="flex justify-between items-center text-xs border-b border-slate-light/10 pb-2">
-                        <span class="font-semibold text-slate-dark">DIGITAL ENTRY CHANNELS</span>
+                        <span class="font-semibold text-dark">DIGITAL ENTRY CHANNELS</span>
                         <span class="text-orange font-bold">● ACTIVE STREAMS</span>
                     </div>
                     <div class="grid grid-cols-3 gap-2 text-center text-xs">
@@ -122,16 +105,16 @@
             <div class="bg-white border border-slate-light/30 rounded-2xl p-8 flex flex-col justify-between shadow-sm">
                 <div>
                     <span
-                        class="text-xs font-bold text-slate-dark/60 uppercase tracking-wider bg-slate-light/20 px-2.5 py-1 rounded-md">Self-Managing
+                        class="text-xs font-bold text-dark uppercase tracking-wider bg-slate-light/20 px-2.5 py-1 rounded-md">Self-Managing
                         Logs</span>
                     <h3 class="text-xl font-bold mt-4 mb-2">Automated HR Oversight</h3>
-                    <p class="text-slate-dark/70 text-sm leading-relaxed">
+                    <p class="text-dark text-sm leading-relaxed">
                         Stop forcing your HR team to manually audit timecards. Presence Dot's automation engine
                         automatically reviews missing punches, flagging anomalies and processing shift variations
                         entirely in the background.
                     </p>
                 </div>
-                <ul class="text-xs space-y-2 mt-6 border-t border-slate-light/20 pt-4 text-slate-dark/80">
+                <ul class="text-xs space-y-2 mt-6 border-t border-slate-light/20 pt-4 text-dark">
                     <li class="flex items-center"><span class="w-1.5 h-1.5 rounded-full bg-orange mr-2"></span>
                         Automated Timecard Approvals</li>
                     <li class="flex items-center"><span class="w-1.5 h-1.5 rounded-full bg-orange mr-2"></span> Instant
@@ -146,10 +129,10 @@
                 class="bg-white border border-slate-light/30 rounded-2xl p-8 flex flex-col justify-between shadow-sm">
                 <div>
                     <span
-                        class="text-xs font-bold text-slate-dark/60 uppercase tracking-wider bg-slate-light/20 px-2.5 py-1 rounded-md">Presence
+                        class="text-xs font-bold text-dark uppercase tracking-wider bg-slate-light/20 px-2.5 py-1 rounded-md">Presence
                         Analytics</span>
                     <h3 class="text-xl font-bold mt-4 mb-2">Macro Presence Trends</h3>
-                    <p class="text-slate-dark/70 text-sm leading-relaxed">
+                    <p class="text-dark text-sm leading-relaxed">
                         Move past basic weekly sheets. The web dashboard synthesizes months of application data to
                         visually track patterns: structural absenteeism, seasonal trends, and department-wide presence
                         consistency over time.
@@ -163,7 +146,7 @@
                         <div class="w-full bg-orange h-[98%] rounded-t-sm"></div>
                         <div class="w-full bg-slate-light/40 h-[50%] rounded-t-sm"></div>
                     </div>
-                    <span class="text-[10px] text-slate-dark/40 block text-center mt-1">Long-Term Workspace Presence
+                    <span class="text-[10px] text-dark block text-center mt-1">Long-Term Workspace Presence
                         Curve</span>
                 </div>
             </div>
@@ -177,7 +160,7 @@
                         Rules Engine</span>
                     <h3 class="text-2xl font-bold mt-4 mb-3 text-white">Configurable Grace Periods & Break Calculations
                     </h3>
-                    <p class="text-slate-light leading-relaxed mb-6 text-sm">
+                    <p class="text-light leading-relaxed mb-6 text-sm">
                         Set up your corporate rules once and let the software handle the rest. The app applies
                         minute-accurate rounding rules, deducts lunch breaks automatically, tracks overnight shift
                         rollovers, and tallies premium hours without any manual calculations.
@@ -204,31 +187,31 @@
         <div class="max-w-7xl mx-auto px-6">
             <div class="max-w-2xl mb-12">
                 <h2 class="text-3xl font-bold tracking-tight mb-3">Enterprise Features, Zero Infrastructure</h2>
-                <p class="text-slate-dark/70">The underlying digital architecture that keeps your workspace tracking
+                <p class="text-dark">The underlying digital architecture that keeps your workspace tracking
                     accurate, seamless, and completely automated.</p>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
                 <div>
-                    <h4 class="font-bold text-slate-dark text-base mb-2">Payroll Webhooks</h4>
-                    <p class="text-sm text-slate-dark/70 leading-relaxed">Broadcasts processed time logs automatically
+                    <h4 class="font-bold text-dark text-base mb-2">Payroll Webhooks</h4>
+                    <p class="text-sm text-dark leading-relaxed">Broadcasts processed time logs automatically
                         to your payroll platform, ERP systems, or internal databases via secure, instant API sync.</p>
                 </div>
                 <div>
-                    <h4 class="font-bold text-slate-dark text-base mb-2">Smart Anomaly Audits</h4>
-                    <p class="text-sm text-slate-dark/70 leading-relaxed">The system automatically catches and flags
+                    <h4 class="font-bold text-dark text-base mb-2">Smart Anomaly Audits</h4>
+                    <p class="text-sm text-dark leading-relaxed">The system automatically catches and flags
                         anomalies like overlapping schedules, missed secondary web punches, or conflicting geolocation
                         tags.</p>
                 </div>
                 <div>
-                    <h4 class="font-bold text-slate-dark text-base mb-2">Cross-Device Sync</h4>
-                    <p class="text-sm text-slate-dark/70 leading-relaxed">Instant database reconciliation across the
+                    <h4 class="font-bold text-dark text-base mb-2">Cross-Device Sync</h4>
+                    <p class="text-sm text-dark leading-relaxed">Instant database reconciliation across the
                         responsive web portal, iOS app, and Android app, ensuring unified visibility with zero delay.
                     </p>
                 </div>
                 <div>
-                    <h4 class="font-bold text-slate-dark text-base mb-2">Hands-Off Scaling</h4>
-                    <p class="text-sm text-slate-dark/70 leading-relaxed">Built on auto-scaling cloud clusters that
+                    <h4 class="font-bold text-dark text-base mb-2">Hands-Off Scaling</h4>
+                    <p class="text-sm text-dark leading-relaxed">Built on auto-scaling cloud clusters that
                         process tens of thousands of concurrent app interactions simultaneously during peak shift change
                         hours.</p>
                 </div>
@@ -237,8 +220,8 @@
     </section>
 
     <footer
-        class="max-w-7xl mx-auto px-6 py-12 flex flex-col sm:flex-row justify-between items-center text-xs text-slate-dark/50 border-t border-slate-light/20">
-        <div class="flex items-center space-x-2 font-bold text-sm text-slate-dark mb-4 sm:mb-0">
+        class="max-w-7xl mx-auto px-6 py-12 flex flex-col sm:flex-row justify-between items-center text-xs text-dark border-t border-slate-light/20">
+        <div class="flex items-center space-x-2 font-bold text-sm text-dark mb-4 sm:mb-0">
             <span class="w-2.5 h-2.5 rounded-full bg-orange inline-block"></span>
             <span>PresenceDot</span>
         </div>
